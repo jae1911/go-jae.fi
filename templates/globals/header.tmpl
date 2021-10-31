@@ -1,0 +1,59 @@
+{{ define "globals/header.tmpl" }}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jae's website - {{ .title }}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/main.css" />
+    <link rel="stylesheet" href="/assets/highlight.css" />
+    <link rel="stylesheet" href="/assets/css/all.css">
+
+    <!-- JS -->
+    <script src="/assets/js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <!-- SEO -->
+    <link rel="canonical" href="https://jae.fi{{ .path }}" />
+    <link rel="alternate" href="https://jae.fi{{ .path }}" hreflang="x-default" />
+    <link rel="alternate" href="https://jae.fi{{ .path }}" hreflang="en" />
+    <link type="text/plain" rel="author" href="https://bm.jae.fi/web/humans.txt" />
+
+    <meta name="description" content="Official website of Jae." />
+    <meta name="keywords" content="Jae, developer, official, website, blog, technology, matrix, open-source" />
+    <meta name="author" content="Jae" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="monetization" content="$ilp.uphold.com/2FHPLxwxjN3D" />
+    <meta name="color-scheme" content="dark light">
+
+    <meta property="og:title" content="Official website of Jae" />
+    <meta property="og:description" content="Official website of Jae" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://bm.jae.fi/web/logo.webp" />
+    <meta property="og:url" content="https://jae.fi{{ .path }}" />
+
+    <link rel="shortcut icon" href="https://bm.jae.fi/web/favicon.ico" />
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+    <header>
+        <div role="banner">
+            <h1 id="title">Jae Lo Presti</h1>
+            <h2 id="subtitle" class="subtitle">Developer, sysadmin and Synth</h2>
+        </div>
+        <ul role="navigation" aria-label="Menu" class="nav">
+            <li><a href="/">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/timeline">Timeline</a></li>
+            <li><a href="/gallery/">Gallery</a></li>
+        </ul>
+    </header>
+    <hr />
+
+    <main>
+{{ end }}

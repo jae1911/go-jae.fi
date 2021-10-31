@@ -1,0 +1,66 @@
+{{ define "home/index.tmpl" }}
+{{ template "globals/header.tmpl" .}}
+
+<!--
+
+    Hello there, if you came there, it's probably for some explanations.
+    If you wish to see the source of this website, head to https://code.jae.fi/jae/go-jae.fi everything is there.
+
+    Also pyramids are from Kefrens.
+
+-->
+
+<div role="main" id="main">
+    <h3 id="aboutTitle">About me</h3>
+    <div id="presentation" class="prestext">
+        <p id="generalPresentation">
+            I'm Jae, a developer, sysadmin and a Synth.
+            <br /> I am also a developer and administrator at <a class="info" rel="noreferrer" href="https://tedomum.net" hreflang="fr">TeDomum.net</a>.
+            <br /> Since March 2021, I am located in Helsinki, Finland (EEST).
+        </p>
+        <p id="presentationPlus">
+            My big passions are computers, music (Amiga modules and C64 SIDs) and walking (mainly around the Lauttasaari area) for some physical exercise.<br /> I also love Free and Open-Source software!
+            <br /> If you need an email to contact me, use the Matrix network and join my room.<br/>
+            Don't make the mistake I did in the past and use IRC.<br/>
+            Also, if you wish to donate, please read the <a href="/donation">about donations page</a>.<br/>
+            My current hardware is <a href="/stuff">listed on its own page</a>.
+        </p>
+    </div>
+    <h3 id="links">Some links</h3>
+    <ul>
+        <li>
+            <a class="info" rel="noreferrer" href="https://blog.jae.fi" hreflang="en"><i class="fa fa-rss-square"></i> My blog</a
+                >; on which I tell you about projects and stuff I like or
+                dislike.
+            </li>
+            <li>
+                <a  class="info"  rel="me" href="https://follow.social.jae.fi"><i class="fab fa-mastodon"></i> Mastodon</a>; a Twitter-like social network on which you can follow me.
+        </li>
+        <li>
+            <a class="info" rel="noreferrer" href="https://matrix.to/&#35;/&#35;home:jae.fi?via=jae.fi"><i class="fa fa-comments"></i> My Matrix room</a>; to chat with me.
+        </li>
+    </ul>
+    Build status of the website <a href="https://code.jae.fi/jae/go-jae.fi/-/commits/beep"><img alt="pipeline status" src="https://code.jae.fi/jae/go-jae.fi/badges/beep/pipeline.svg" /></a>
+    <div class="ring">
+        <div class="webring">
+            <div class="icon">></div>
+        <div id="copy">
+
+        <h1>Ftech webring</h1>
+            <p>
+                This is {{ .currentsite }}, owned by {{ .currentowner }}
+            </p>
+
+            <p>
+                <a href="{{ .prevsite }}">[Prev]</a>
+                <a href="{{ .nextsite }}">[Next]</a>
+                <a href="{{ .randomsite }}">[Random]</a>
+            </p>
+
+        </div>
+            <div class="icon"><</div>
+        </div>
+    </div>
+</div>
+{{ template "globals/footer.tmpl" .}}
+{{ end }}

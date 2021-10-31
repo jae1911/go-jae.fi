@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="710" height="260" id="MOS_Technology_Logo">
+  <defs>
+    <symbol id="X">
+      <rect x="0" y="0" width="7" height="22"/>
+    </symbol>
+
+    <symbol id="Y">
+      <path d="M 0,22 L 7,22 L 7,7 A 7,7 0 0,0 0,0 z"/>
+    </symbol>
+  </defs>
+
+  <g transform="matrix(10,0,0,10,20,20)" id="MOS" style="fill:black;">
+    <g>
+      <use xlink:href="#X" transform="translate(0)"/>
+      <use xlink:href="#Y" transform="translate(7) translate(.5)"/>
+      <use xlink:href="#Y" transform="translate(7) translate(.5) translate(7) translate(.5)"/>
+    </g>
+    <g transform="translate(.5) translate(22)">
+      <circle cx="11" cy="11" r="11" id="O"/>
+    </g>
+    <g transform="translate(22) translate(.5) translate(22) translate(.5) translate(22) rotate(90)">
+      <use xlink:href="#Y" transform="translate(7,22) rotate(180)"/>
+      <use xlink:href="#X" transform="translate(7) translate(.5)"/>
+      <use xlink:href="#Y" transform="translate(7) translate(.5) translate(7) translate(.5)"/>
+    </g>
+  </g>
+</svg>

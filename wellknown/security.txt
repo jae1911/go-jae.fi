@@ -1,0 +1,7 @@
+Contact: mailto:security@jae.fi
+Contact: mailto:jae@countermail.com
+Expires: 2022-10-26T21:00:00.000Z
+Encryption: https://jae.fi/contact
+Acknowledgments: https://jae.fi/
+Preferred-Languages: en, fr, fi
+Canonical: https://jae.fi/.well-known/security.txt
