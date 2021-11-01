@@ -1,6 +1,9 @@
 # Go Jae.fi
 
-[![pipeline status](https://code.jae.fi/jae/go-jae.fi/badges/beep/pipeline.svg)](https://code.jae.fi/jae/go-jae.fi/-/commits/beep) 
-
 This is the latest version of Jae.fi, using the golang programming language.
 
+You can pull the Docker container like this:
+
+	docker pull ghcr.io/jaedotmoe/go-jae.fi:latest
+
+Only port to expose is `2021` for HTTP. No volumes required.
