@@ -1,0 +1,25 @@
+{{ define "home/stream.tmpl" }}
+{{ template "globals/header.tmpl" .}}
+<div role="main" id="main">
+    <h3 id="aboutTitle">Stream</h3>
+    <div id="presentation" class="prestext">
+        <iframe
+          src="https://stream.jae.fi/embed/video"
+          title="Owncast"
+          height="350px" width="550px"
+          referrerpolicy="origin"
+          scrolling="no"
+          allowfullscreen>
+        </iframe>
+        <iframe
+          src="https://stream.jae.fi/embed/chat/readwrite"
+          title="Owncast"
+          height="350px" width="550px"
+          referrerpolicy="origin"
+          scrolling="no"
+          allowfullscreen>
+        </iframe>
+    </div>
+</div>
+{{ template "globals/footer.tmpl" .}}
+{{ end }}

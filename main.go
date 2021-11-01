@@ -150,6 +150,13 @@ func main() {
 		})
 	})
 
+	// Stream
+	r.GET("/stream", func(c *gin.Context) {
+		c.HTML(http.StatusOK, "home/stream.tmpl", gin.H {
+			"title": "Livestream",
+		})
+	})
+
 	// Health
 	r.GET("/health", func(c *gin.Context) {
 		c.String(http.StatusOK, "OK")
