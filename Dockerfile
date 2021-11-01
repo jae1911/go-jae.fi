@@ -7,9 +7,7 @@ WORKDIR /app/
 
 COPY . /app/
 
-RUN go get -d -v /app/
-
-RUN go build /app/
+RUN go get -d -v /app/ && go build /app/
 
 EXPOSE $PORT
 
