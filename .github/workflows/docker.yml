@@ -26,4 +26,6 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: jaedoemoe/go-jae.fi:latest
+          tags:
+            - jaedoemoe/go-jae.fi:$(date +%s)
+            - jaedoemoe/go-jae.fi:latest
