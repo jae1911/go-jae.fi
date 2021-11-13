@@ -72,10 +72,8 @@ func main() {
 
 		json.Unmarshal(byteValue, &members)
 
-		previousSite := ""
+		var previousSite, nextSite, randomsite string
 		currentSite := "https://jae.fi"
-		nextSite := ""
-		randomsite := ""
 		randSite := rand.Intn(len(members.Members) - 1)
 
 		for i := 0; i < len(members.Members); i++ {
