@@ -8,7 +8,6 @@ import (
 	"net/http"
 	"os"
 
-	brotli "github.com/anargu/gin-brotli"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 )
@@ -31,7 +30,6 @@ func main() {
 
 	// Compression
 	r.Use(gzip.Gzip(gzip.DefaultCompression))
-	r.Use(brotli.Brotli(brotli.DefaultCompression))
 
 	r.Delims("{{", "}}")
 
