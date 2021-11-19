@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"os"
 
+	brotli "github.com/anargu/gin-brotli"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 )
@@ -27,7 +28,11 @@ func main() {
 	// Web service
 	r := gin.New()
 	r.Use(gin.Recovery())
+
+	// Compression
 	r.Use(gzip.Gzip(gzip.DefaultCompression))
+	r.Use(brotli.Brotli(brotli.DefaultCompression))
+
 	r.Delims("{{", "}}")
 
 	r.GET("/me", func(c *gin.Context) {

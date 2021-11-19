@@ -13,6 +13,8 @@ require (
 )
 
 require (
+	github.com/anargu/gin-brotli v0.0.0-20210609050034-b9b96e26a5ab // indirect
+	github.com/andybalholm/brotli v1.0.1 // indirect
 	github.com/bradfitz/gomemcache v0.0.0-20180710155616-bc664df96737 // indirect
 	github.com/codegangsta/inject v0.0.0-20150114235600-33e0aa1cb7c0 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
