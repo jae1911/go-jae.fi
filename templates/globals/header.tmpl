@@ -58,5 +58,13 @@
     </header>
     <hr />
 
+    {{ if .stream_online }}
+        <div>
+            <h2>Stream is online!</h2>
+            <p><a href="/stream">Click here to watch!</a></p>
+        </div>
+        <hr />
+    {{ end }}
+
     <main>
 {{ end }}
