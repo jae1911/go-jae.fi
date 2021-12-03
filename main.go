@@ -28,6 +28,9 @@ func main() {
 	r := gin.New()
 	r.Use(gin.Recovery())
 
+	// Streaming
+	stream_online := false
+
 	// Compression
 	r.Use(gzip.Gzip(gzip.DefaultCompression))
 
@@ -44,6 +47,7 @@ func main() {
 			"matrix":     "@me:jae.fi",
 			"fediverse":  "@jae@mastodon.tedomum.net",
 			"pronouns":   "She/Her",
+			"stream_online": stream_online,
 		})
 	})
 
@@ -110,6 +114,7 @@ func main() {
 			"nextsite":     nextSite,
 			"randomsite":   randomsite,
 			"path":         c.FullPath(),
+			"stream_online": stream_online,
 		})
 	})
 
@@ -118,6 +123,7 @@ func main() {
 		c.HTML(http.StatusOK, "home/gallery.tmpl", gin.H{
 			"title": "Gallery",
 			"path":  c.FullPath(),
+			"stream_online": stream_online,
 		})
 	})
 
@@ -125,6 +131,7 @@ func main() {
 	r.NoRoute(func(c *gin.Context) {
 		c.HTML(http.StatusNotFound, "home/404.tmpl", gin.H{
 			"title": "404",
+			"stream_online": stream_online,
 		})
 	})
 
@@ -132,6 +139,7 @@ func main() {
 	r.GET("/timeline", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "home/timeline.tmpl", gin.H{
 			"title": "Timeline",
+			"stream_online": stream_online,
 		})
 	})
 
@@ -139,6 +147,7 @@ func main() {
 	r.GET("/contact", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "home/contact.tmpl", gin.H{
 			"title": "Contact",
+			"stream_online": stream_online,
 		})
 	})
 
@@ -146,6 +155,7 @@ func main() {
 	r.GET("/donation", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "home/donation.tmpl", gin.H{
 			"title": "About Donations",
+			"stream_online": stream_online,
 		})
 	})
 
@@ -153,6 +163,7 @@ func main() {
 	r.GET("/stuff", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "home/stuff.tmpl", gin.H{
 			"title": "Current Hardware",
+			"stream_online": stream_online,
 		})
 	})
 
@@ -160,6 +171,7 @@ func main() {
 	r.GET("/stream", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "home/stream.tmpl", gin.H {
 			"title": "Livestream",
+			"stream_online": stream_online,
 		})
 	})
 
