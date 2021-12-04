@@ -311,3 +311,7 @@ img[alt] {
 pre {
     background-color: #4a4b46;
 }
+
+details {
+    border: 2px solid white;
+}
