@@ -7,10 +7,13 @@ import (
 	"math/rand"
 	"net/http"
 	"os"
+	"log"
+	"html/template"
 	"errors"
 
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
+	"github.com/russross/blackfriday"
 )
 
 // For the future
@@ -22,6 +25,11 @@ type Website struct {
 
 type Members struct {
 	Members []Website `json:"members"`
+}
+
+type Post struct {
+    Title   string
+    Content template.HTML
 }
 
 func main() {
@@ -122,19 +130,28 @@ func main() {
 	// Get routes
 	r.GET("/:page", func(c *gin.Context) {
 		requestedPage := c.Param("page")
-		finalPageGetString := "home/" + requestedPage + ".tmpl"
+		contentLocation := "content/" + requestedPage + ".md"
 
 		// Check if file exists
-		if _, err := os.Stat("templates/home/" + requestedPage + ".tmpl"); errors.Is(err, os.ErrNotExist){
-			finalPageGetString = "home/404.tmpl"
+		if _, err := os.Stat("content/" + requestedPage + ".md"); errors.Is(err, os.ErrNotExist){
+			contentLocation = "content/404.md"
 		}
 
-		// Now render stuff
-		c.HTML(http.StatusOK, finalPageGetString, gin.H{
-			"title": requestedPage,
-			"path": c.FullPath(),
+		postContent, err := ioutil.ReadFile(contentLocation)
+		if err != nil {
+			log.Fatal(err)
+		}
+		
+		postHTML := template.HTML(blackfriday.MarkdownCommon([]byte(postContent)))
+
+		post := Post{Title: requestedPage, Content: postHTML}
+
+		c.HTML(http.StatusOK, "globals/complete.tmpl", gin.H{
+			"title": post.Title,
+			"content": post.Content,
 			"stream_online": stream_online,
 		})
+
 	})
 
 	r.Run(":2021")
