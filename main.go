@@ -7,6 +7,7 @@ import (
 	"math/rand"
 	"net/http"
 	"os"
+	"errors"
 
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
@@ -118,66 +119,22 @@ func main() {
 		})
 	})
 
-	// Gallery
-	r.GET("/gallery", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "home/gallery.tmpl", gin.H{
-			"title": "Gallery",
-			"path":  c.FullPath(),
+	// Get routes
+	r.GET("/:page", func(c *gin.Context) {
+		requestedPage := c.Param("page")
+		finalPageGetString := "home/" + requestedPage + ".tmpl"
+
+		// Check if file exists
+		if _, err := os.Stat("templates/home/" + requestedPage + ".tmpl"); errors.Is(err, os.ErrNotExist){
+			finalPageGetString = "home/404.tmpl"
+		}
+
+		// Now render stuff
+		c.HTML(http.StatusOK, finalPageGetString, gin.H{
+			"title": requestedPage,
+			"path": c.FullPath(),
 			"stream_online": stream_online,
 		})
-	})
-
-	// 404
-	r.NoRoute(func(c *gin.Context) {
-		c.HTML(http.StatusNotFound, "home/404.tmpl", gin.H{
-			"title": "404",
-			"stream_online": stream_online,
-		})
-	})
-
-	// Timeline
-	r.GET("/timeline", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "home/timeline.tmpl", gin.H{
-			"title": "Timeline",
-			"stream_online": stream_online,
-		})
-	})
-
-	// Contact
-	r.GET("/contact", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "home/contact.tmpl", gin.H{
-			"title": "Contact",
-			"stream_online": stream_online,
-		})
-	})
-
-	// Donations
-	r.GET("/donation", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "home/donation.tmpl", gin.H{
-			"title": "About Donations",
-			"stream_online": stream_online,
-		})
-	})
-
-	// Stuff
-	r.GET("/stuff", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "home/stuff.tmpl", gin.H{
-			"title": "Current Hardware",
-			"stream_online": stream_online,
-		})
-	})
-
-	// Stream
-	r.GET("/stream", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "home/stream.tmpl", gin.H {
-			"title": "Livestream",
-			"stream_online": stream_online,
-		})
-	})
-
-	// Health
-	r.GET("/health", func(c *gin.Context) {
-		c.String(http.StatusOK, "OK")
 	})
 
 	r.Run(":2021")
