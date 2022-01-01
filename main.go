@@ -115,8 +115,18 @@ func main() {
 			}
 		}
 
-		c.HTML(http.StatusOK, "home/index.tmpl", gin.H{
-			"title":        "Main page",
+		postContent, err := ioutil.ReadFile("content/index.md")
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		postHTML := template.HTML(blackfriday.MarkdownCommon([]byte(postContent)))
+
+		post := Post{Title: "Main Page", Content: postHTML}
+
+		c.HTML(http.StatusOK, "globals/complete.tmpl", gin.H{
+			"title":        post.Title,
+			"content":		post.Content,
 			"currentsite":  "Jae's Website",
 			"currentowner": "Jae Lo Presti",
 			"prevsite":     previousSite,
