@@ -20,3 +20,13 @@ My current hardware is [listed on its own page](/stuff).
 ---
 
 Build status of the website [![pipeline status](https://github.com/Jaedotmoe/go-jae.fi/actions/workflows/docker.yml/badge.svg)](https://github.com/Jaedotmoe/go-jae.fi)
+
+---
+
+<noscript>
+    You need JavaScript to see the webring widget.
+</noscript>
+<webring-css site="https://jae.fi">
+    If you see this, there is either a problem or the Webring hasn't loaded yet.
+</webring-css>
+<script type="text/javascript" src="/assets/webring.js"></script>
