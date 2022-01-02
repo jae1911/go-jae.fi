@@ -13,17 +13,7 @@ import (
 	"github.com/russross/blackfriday"
 )
 
-// For the future
-type Website struct {
-	Name  string `json:"name"`
-	Url   string `json:"url"`
-	Owner string `json:"owner"`
-}
-
-type Members struct {
-	Members []Website `json:"members"`
-}
-
+// For content pages
 type Post struct {
     Title   string
     Content template.HTML
