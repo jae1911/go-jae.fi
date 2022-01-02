@@ -73,9 +73,15 @@ func main() {
 		c.Data(http.StatusOK, "application/json", jsonfile)
 	})
 
+	// Matrix server delegation
+	r.GET("/.well-known/matrix/server", func(c *gin.Context) {
+		c.JSON(200, gin.H {
+			"m.server": "matrix.jae.fi:443",
+		})
+	})
+
 	r.LoadHTMLGlob("templates/**/*.tmpl")
 	r.Static("/assets", "./static")
-	r.Static("/.well-known", "./wellknown")
 
 	r.GET("/", func(c *gin.Context) {
 		postContent, err := ioutil.ReadFile("content/index.md")
