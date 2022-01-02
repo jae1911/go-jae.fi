@@ -42,6 +42,7 @@ func main() {
 
 	r.Delims("{{", "}}")
 
+	// Personal info endpoint
 	r.GET("/me", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"name":       "Jae",
@@ -57,6 +58,8 @@ func main() {
 		})
 	})
 
+	// Webring members endpoint
+	// TODO: use a database instead of a plain file
 	r.GET("/webring/members", func(c *gin.Context) {
 		jsonfile, err := ioutil.ReadFile("./webring/members.json")
 		if err != nil {
@@ -80,9 +83,11 @@ func main() {
 		})
 	})
 
+	// Static routes & templates
 	r.LoadHTMLGlob("templates/**/*.tmpl")
 	r.Static("/assets", "./static")
 
+	// Main page, cannot be handled by :page
 	r.GET("/", func(c *gin.Context) {
 		postContent, err := ioutil.ReadFile("content/index.md")
 		if err != nil {
