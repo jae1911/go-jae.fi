@@ -1,6 +1,6 @@
 ## Routes of Albion
 
-Optimal routes for Albion Online when trading or just displacing.  
+Optimal routes for Albion Online when trading or just dispatching to a location.  
 Every route originates from Bridgewatch.
 
 ### To Caerleon
