@@ -1,10 +1,7 @@
 package main
 
 import (
-	"encoding/json"
-	"fmt"
 	"io/ioutil"
-	"math/rand"
 	"net/http"
 	"os"
 	"log"
@@ -81,40 +78,6 @@ func main() {
 	r.Static("/.well-known", "./wellknown")
 
 	r.GET("/", func(c *gin.Context) {
-		jsonfile, err := os.Open("./webring/members.json")
-		if err != nil {
-			fmt.Println(err)
-		}
-		var members Members
-
-		byteValue, _ := ioutil.ReadAll(jsonfile)
-
-		defer jsonfile.Close()
-
-		json.Unmarshal(byteValue, &members)
-
-		var previousSite, nextSite, randomsite string
-		currentSite := "https://jae.fi"
-		randSite := rand.Intn(len(members.Members) - 1)
-
-		for i := 0; i < len(members.Members); i++ {
-			if members.Members[i].Url == currentSite {
-				if i-1 < 0 {
-					previousSite = members.Members[len(members.Members)-1].Url
-				} else {
-					previousSite = members.Members[i-1].Url
-				}
-
-				if i+1 > len(members.Members) {
-					nextSite = members.Members[i-1].Url
-				} else {
-					nextSite = members.Members[i+1].Url
-				}
-
-				randomsite = members.Members[randSite].Url
-			}
-		}
-
 		postContent, err := ioutil.ReadFile("content/index.md")
 		if err != nil {
 			log.Fatal(err)
@@ -128,11 +91,6 @@ func main() {
 			"title":        post.Title,
 			"content":		post.Content,
 			"currentsite":  "Jae's Website",
-			"currentowner": "Jae Lo Presti",
-			"prevsite":     previousSite,
-			"nextsite":     nextSite,
-			"randomsite":   randomsite,
-			"path":         c.FullPath(),
 			"stream_online": stream_online,
 		})
 	})
