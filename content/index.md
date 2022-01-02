@@ -20,27 +20,3 @@ My current hardware is [listed on its own page](/stuff).
 ---
 
 Build status of the website [![pipeline status](https://github.com/Jaedotmoe/go-jae.fi/actions/workflows/docker.yml/badge.svg)](https://github.com/Jaedotmoe/go-jae.fi)
-
----
-
-<div class="ring">
-    <div class="webring">
-        <div class="icon">></div>
-    <div id="copy">
-
-<h1>Ftech webring</h1>
-    <p>
-        This is {{ .currentsite }}, owned by {{ .currentowner }}
-    </p>
-
-    <p>
-        <a href="{{ .prevsite }}">[Prev]</a>
-        <a href="{{ .nextsite }}">[Next]</a>
-        <a href="{{ .randomsite }}">[Random]</a>
-    </p>
-
-</div>
-    <div class="icon"><</div>
-</div>
-</div>
-
