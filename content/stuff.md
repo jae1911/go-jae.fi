@@ -13,6 +13,11 @@ Desktop computer:
  - Webcam: Logitech StreamCam
  - OS: ArchLinux x86_64
  - Mouse: Razer Basilisk X Hyperspeed
- - Microphone: Shure MV7
- - Cloudlifter CL-1
- - Behringer U-Phoria UM2
+
+### Audio
+
+Current audio setup:
+
+- Shure MV7
+- Cloudlifter CL-1
+- Behringer U-Phoria UM2
