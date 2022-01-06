@@ -14,3 +14,5 @@ Desktop computer:
  - OS: ArchLinux x86_64
  - Mouse: Razer Basilisk X Hyperspeed
  - Microphone: Shure MV7
+ - Cloudlifter CL-1
+ - Behringer U-Phoria UM2
