@@ -30,3 +30,5 @@ Build status of the website [![pipeline status](https://github.com/Jaedotmoe/go-
     If you see this, there is either a problem or the Webring hasn't loaded yet.
 </webring-css>
 <script type="text/javascript" src="/assets/webring.js"></script>
+
+You can see the sample implementation of the webring [on the dedicated page](/webring).
