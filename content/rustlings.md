@@ -34,3 +34,8 @@ Current status of [Rustlings](https://github.com/rust-lang/rustlings):
  - 1: done
  - 2: done
  - 3: 
+
+### Clippy
+
+ - 1: done
+ - 2: done
