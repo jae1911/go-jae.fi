@@ -7,6 +7,7 @@ import (
     "log"
     "html/template"
     "errors"
+    "strings"
 
     "github.com/gin-contrib/gzip"
     "github.com/gin-gonic/gin"
@@ -98,7 +99,7 @@ func main() {
 
     // Get routes
     r.GET("/:page", func(c *gin.Context) {
-        requestedPage := c.Param("page")
+        requestedPage := strings.ToLower(c.Param("page"))
         contentLocation := "content/" + requestedPage + ".md"
 
         // Check if file exists
