@@ -1,1 +1,1 @@
-redir:https://jae.fi/stuff
+redir:/stuff
