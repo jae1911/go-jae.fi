@@ -8,6 +8,7 @@ import (
     "html/template"
     "errors"
     "strings"
+    "regexp"
 
     "github.com/gin-contrib/gzip"
     "github.com/gin-gonic/gin"
@@ -111,16 +112,25 @@ func main() {
         if err != nil {
             log.Fatal(err)
         }
-        
-        postHTML := template.HTML(blackfriday.MarkdownCommon([]byte(postContent)))
 
-        post := Post{Title: requestedPage, Content: postHTML}
+        if strings.HasPrefix(string(postContent), "redir:") {
+            // Get redir URI
+            re, _ := regexp.Compile(`^redir:`)
 
-        c.HTML(http.StatusOK, "globals/complete.tmpl", gin.H{
-            "title": post.Title,
-            "content": post.Content,
-            "stream_online": stream_online,
-        })
+            raw_uri := re.ReplaceAllString(string(postContent), "")
+
+            c.Redirect(http.StatusMovedPermanently, raw_uri)
+        } else {
+            postHTML := template.HTML(blackfriday.MarkdownCommon([]byte(postContent)))
+
+            post := Post{Title: requestedPage, Content: postHTML}
+
+            c.HTML(http.StatusOK, "globals/complete.tmpl", gin.H{
+                "title": post.Title,
+                "content": post.Content,
+                "stream_online": stream_online,
+            })
+        }    
 
     })
 
