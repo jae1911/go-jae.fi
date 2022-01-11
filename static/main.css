@@ -308,3 +308,19 @@ details {
 #main li + li {
   border-top: 1px solid rgba(255,255,255,0.2);
 }
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
