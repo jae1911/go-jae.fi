@@ -15,7 +15,7 @@ My current hardware is [listed on its own page](/stuff).
 
  - [My blog](https://blog.jae.fi); on which I tell you about projects and stuff I like or dislike.
  - [Mastodon](https://mastodon.tedomum.net/@jae); a Twitter-like social network on which you can follow me.
- - [Matrix Room](matrix:r/home:jae.fi); to chat with me.
+ - [Matrix Room](matrix:r/home:jae.fi); ([Matrix.to URL](/matrixroom) for client that don't support the Matrix scheme URI)  to chat with me.
  - [Github](https://github.com/jaedotmoe); all my project sources
 
 ---
