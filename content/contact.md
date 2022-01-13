@@ -2,7 +2,8 @@
 
 How to contact me.  
 
-**Note:** I will never support any kind of centralized services such as Telegram, Signal or Discord for official contacts as nobody on these platforms can spin up their own servers and interract with others.
+**Note:** I will never support any kind of centralized services such as Telegram, Signal or Discord for official contacts as nobody on these platforms can spin up their own servers and interract with others.  
+The only exception to that rule is [Threema](https://threema.ch). If you can find our ID on it, we will respond to messages.
 
 ### Matrix
 
