@@ -11,6 +11,12 @@ Don't make the mistake I did in the past and use IRC.
 Also, if you wish to donate, please read the [about donations page](/donation).  
 My current hardware is [listed on its own page](/stuff).
 
+### Current projects
+
+ - [go-jae.fi](https://github.com/Jaedotmoe/go-jae.fi) - The website you are currently on, made in `Golang`, `HTML`, `CSS` & `JavaScript`
+ - [wolfeye-api](https://github.com/Jaedotmoe/wolfeye-api) - A search engine API made in `Python` with Flask
+ - [gh-bot](https://github.com/Jaedotmoe/gh-bot) - A webhook bot for Matrix that support Github, Gitlab and Gitea made in `Python`
+
 ### Some Links
 
  - [My blog](https://blog.jae.fi); on which I tell you about projects and stuff I like or dislike.
