@@ -19,6 +19,15 @@ I also happen to run [AS211696](https://bgp.he.net/AS211696) which announces the
  - [wolfeye-api](https://github.com/Jaedotmoe/wolfeye-api) - A search engine API made in `Python` with Flask
  - [gh-bot](https://github.com/Jaedotmoe/gh-bot) - A webhook bot for Matrix that support Github, Gitlab and Gitea made in `Python`
 
+### Latest blog articles
+
+<noscript>
+    Please activate JavaScript to see the blog widget or <a href="https://blog.jae.fi">head to the blog</a>.
+</noscript>
+<blog-widget url="https://blog.jae.fi/ghost/api/v3/content/posts/?key=9f1b72ce9feb4b52201cac0dc6&include=tags,authors&limit=5">
+</blog-widget>
+<script type="text/javascript" src="/assets/blog.js"></script>
+
 ### Some Links
 
  - [My blog](https://blog.jae.fi); on which I tell you about projects and stuff I like or dislike.
