@@ -292,23 +292,6 @@ details {
     border: 2px solid white;
 }
 
-#main ul {
-  counter-reset: index;  
-  max-width: 100%;
-}
-
-#main li {
-  counter-increment: index; 
-  display: flex;
-  align-items: center;
-  padding: 12px 0;
-  box-sizing: border-box;
-}
-
-#main li + li {
-  border-top: 1px solid rgba(255,255,255,0.2);
-}
-
 .svg-icon {
   width: 1em;
   height: 1em;
