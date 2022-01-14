@@ -11,7 +11,7 @@ Don't make the mistake I did in the past and use IRC.
 Also, if you wish to donate, please read the [about donations page](/donation).  
 My current hardware is [listed on its own page](/stuff).
 
-I also happen to run [AS211696](https://bgp.he.net/AS211696) which announces the [following prefixes](/ip/ranges) in IPv6 only.
+I also happen to run [AS211696](/as) which announces two IPv6 prefixes (one PA and one PI).
 
 ### Current projects
 
