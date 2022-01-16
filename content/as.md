@@ -7,7 +7,8 @@ Said prefixes are:
  - 2001:67c:2724::/48 (GeoIP: Finland)
  - 2a0e:8f02:f01f::/48 (GeoIP: Finland)
 
-Peering information may be seen on [PeeringDB](https://www.peeringdb.com/asn/211696).
+Peering information may be seen on [PeeringDB](https://www.peeringdb.com/asn/211696).  
+A [routinator server](https://routinator.jae.fi) is also available.
 
 #### Current exchanges
 
