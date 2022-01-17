@@ -5,7 +5,8 @@ This AS only announces IPv6 prefixes.
 Said prefixes are:
 
  - 2001:67c:2724::/48 (GeoIP: Finland)
- - 2a0e:8f02:f01f::/48 (GeoIP: Finland)
+ - 2a0e:8f02:f01f::/48 (GeoIP: Germany)
+ - 2a12:4946:9900::/40 (GeoIP: Belgium)
 
 Peering information may be seen on [PeeringDB](https://www.peeringdb.com/asn/211696).  
 A [routinator server](https://routinator.jae.fi) is also available.
