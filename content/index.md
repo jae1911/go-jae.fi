@@ -37,10 +37,6 @@ I also happen to run [AS211696](/as) which announces two IPv6 prefixes (one PA a
 
 ---
 
-Build status of the website [![pipeline status](https://github.com/Jaedotmoe/go-jae.fi/actions/workflows/docker.yml/badge.svg)](https://github.com/Jaedotmoe/go-jae.fi)
-
----
-
 <noscript>
     You need JavaScript to see the webring widget.
 </noscript>
