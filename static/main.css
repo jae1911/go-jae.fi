@@ -45,6 +45,13 @@ li::before {
     content: "» ";
 }
 
+pre {
+    background-color: #3F3F3F;
+    max-width: fit-content;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
+}
+
 /* SVG Icons */
 .svg-icon {
   width: 1em;
