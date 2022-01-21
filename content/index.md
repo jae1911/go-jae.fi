@@ -35,8 +35,6 @@ I also happen to run [AS211696](/as) which announces two IPv6 prefixes (one PA a
  - [Matrix Room](matrix:r/home:jae.fi); ([Matrix.to URL](/matrixroom) for client that don't support the Matrix scheme URI)  to chat with me.
  - [Github](https://github.com/jaedotmoe); all my project sources
 
----
-
 <noscript>
     You need JavaScript to see the webring widget.
 </noscript>
