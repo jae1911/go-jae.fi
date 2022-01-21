@@ -7,22 +7,16 @@ template.innerHTML = `
 
 .ring {
     display: block;
+    float: left;
     max-width: 600px;
     margin: 1rem auto;
 }
 
 .webring {
-    border: 15px solid #fff;
+    border: 2px solid #fff;
     padding: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-gap: 1rem;
-    text-align: center;
+    text-align: left;
     font: 100% system-ui, sans-serif;
-}
-
-.icon {
-    font-size: 100px;
 }
 
 .webring a {
@@ -33,13 +27,11 @@ template.innerHTML = `
 
 <div class="ring">
     <div class="webring">
-        <div class="icon">></div>
-    <div id="copy">
+        <div id="copy">
 
 
+        </div>
     </div>
-    <div class="icon"><</div>
-</div>
 </div>`;
 
  class WebRing extends HTMLElement {
@@ -66,7 +58,7 @@ template.innerHTML = `
                 const randomSiteIndex = this.getRandomInt(0, sites.members.length - 1);
 
                 const cp = `
-                  <h1>FTech WebRing</h1>
+                  <h3>FTech WebRing</h3>
                   <p>
                     This <a href="${matchedSite.url}">${matchedSite.name}</a> site is owned by ${matchedSite.owner}
                   </p>
