@@ -44,5 +44,3 @@ I also happen to run [AS211696](/as) which announces two IPv6 prefixes (one PA a
     If you see this, there is either a problem or the Webring hasn't loaded yet.
 </webring-css>
 <script type="text/javascript" src="/assets/webring.js"></script>
-
-You can see the sample implementation of the webring [on the dedicated page](/webring).
