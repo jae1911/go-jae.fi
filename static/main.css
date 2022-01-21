@@ -21,6 +21,8 @@ body {
 
     background-attachment: fixed;
     background-size: cover;
+
+    font-size: 1.1rem;
 }
 
 a {
