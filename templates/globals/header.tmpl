@@ -39,15 +39,24 @@
         <div role="banner" class="banner">
             <h1 id="title">Jae Lo Presti <span class="sub">Developer, sysadmin and Synth</span></h1>
         </div>
-        <ul role="navigation" aria-label="Menu" class="nav">
-            <li><a href="/">About</a></li>
-            <li><a href="/stream">Stream</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/gallery/">Gallery</a></li>
-        </ul>
-    </header>
-    <hr />
+        <div class="nav">
+            <ul role="navigation" aria-label="Menu">
+                <li><a href="/">About</a></li>
+                <li><a href="/stream">Stream</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/gallery/">Gallery</a></li>
+            </ul>
 
+            <footer id="footer" role="contentinfo">
+                <small>Jae, robot on the internet since 2012<br/>
+                    <a href="https://github.com/Jaedotmoe/go-jae.fi" >This website is Open-Source</a><br/>
+                    🏳️‍⚧️</br>
+                    A <a href="https://dn0.eu/">DN0 System</a> production.
+            </small>
+            </footer>
+
+        </div>
+    </header>
     {{ if .stream_online }}
         <div>
             <h2>Stream is online!</h2>
