@@ -7,75 +7,75 @@ Clicking on an image will open it bigger in a new tab.
 
 
 <div class="gallery">
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_0489.JPEG">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_0489.JPEG">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_0489.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_0489.JPEG">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_0489.JPEG" alt="Buildings in Ruoholati, Helsinki Finland." />
 </picture>
 </a>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_3439.JPEG">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_3439.JPEG">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_3439.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_3439.JPEG">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_3439.JPEG" alt="Construction work in Tapiola, Espoo, Finland." />
 </picture>
 </a>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_3446.JPEG">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_3446.JPEG">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_3446.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_3446.JPEG">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_3446.JPEG" alt="Front of the Aino shopping center in Tapiola, Espoo, Finland." />
 </picture>
 </a>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_3855.jpeg">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_3855.jpeg">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_3855.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_3855.jpeg">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_3855.jpeg" alt="Night sky in Lauttasaari, Helsinki, Finland." />
 </picture>
 </a>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_3861.JPEG">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_3861.JPEG">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_3861.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_3861.JPEG">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_3861.JPEG" alt="Shop at night in Lauttasaari, Helsinki, Finland." />
 </picture>
 </a>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_4149.JPEG">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_4149.JPEG">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_4149.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_4149.JPEG">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_4149.JPEG" alt="Evening sky in Lauttasaari, Helsinki, Finland." />
 </picture>
 </a>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_4685.JPEG">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_4685.JPEG">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_4685.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_4685.JPEG">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_4685.JPEG" alt="Getting out of the metro station, Lauttasaari, Helsinki, Finland." class="lozad" />
 </picture>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_5132.jpeg">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_5132.jpeg">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_5132.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_5132.jpeg">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_5132.jpeg" alt="Tip of the island, Lauttasaari, Helsinki, Finland." />
 </picture>
 </a>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_5382.jpeg">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_5382.jpeg">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_5382.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_5382.jpeg">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_5382.jpeg" alt="Sauna, Lauttasaari, Helsinki, Finland." />
 </picture>
 </a>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_6134.JPEG">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_6134.JPEG">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_6134.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_6134.JPEG">
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_6134.JPEG" alt="Forest, Espoo, Finland." />
 </picture>
-<a href="https://bm.jae.fi/web/jae.fi/img/IMG_8506.JPEG">
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_8506.JPEG">
 <picture>
     <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_8506.avif">
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_8506.JPEG">
