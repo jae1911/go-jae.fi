@@ -4,7 +4,14 @@ templateblog.innerHTML = `
 <style>
 a {
     text-decoration: underline;
-    color: #f5a500;
+    color: #F4511E;
+}
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "» ";
 }
 </style>
 <div class="BlogWidget">
