@@ -75,5 +75,12 @@ Clicking on an image will open it bigger in a new tab.
     <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_6134.JPEG">
     <img style="background-image: url('https://bm.jae.fi/web/jae.fi/blurhash/IMG_6134.JPEG'); width: 300px; height: auto;" data-src="https://bm.jae.fi/web/jae.fi/img/IMG_6134.JPEG" alt="Forest, Espoo, Finland." class="lozad" />
 </picture>
+<a href="https://bm.jae.fi/web/jae.fi/img/IMG_8506.JPEG">
+<picture>
+    <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_8506.avif">
+    <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_8506.JPEG">
+    <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_8506.JPEG" alt="Train in the central railway station of Helsinki.">
+</picture>
+</a>
 </div>
 </a>
