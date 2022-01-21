@@ -99,6 +99,11 @@ li::before {
     display: flex;
 }
 
+.nav hr {
+    float: right;
+    width: 5vw;
+}
+
 .nav li::before {
     content: "";
 }
