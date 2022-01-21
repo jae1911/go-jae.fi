@@ -82,5 +82,26 @@ Clicking on an image will open it bigger in a new tab.
     <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_8506.JPEG" alt="Train in the central railway station of Helsinki." />
 </picture>
 </a>
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_8900.JPEG">
+<picture>
+    <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_8900.avif">
+    <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_8900.JPEG">
+    <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_8900.JPEG" alt="Bridge in Jäktäsaari, Helsinki." />
+</picture>
+</a>
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_9579.JPEG">
+<picture>
+    <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_9579.avif">
+    <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_9579.JPEG">
+    <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_9579.JPEG" alt="Picture of a building in Espoo." />
+</picture>
+</a>
+<a target="_blank" href="https://bm.jae.fi/web/jae.fi/img/IMG_0592.JPEG">
+<picture>
+    <source type="image/avif" srcset="https://bm.jae.fi/web/jae.fi/avif/IMG_0592.avif">
+    <source type="image/jpeg" srcset="https://bm.jae.fi/web/jae.fi/img/IMG_0592.JPEG">
+    <img data-src="https://bm.jae.fi/web/jae.fi/img/IMG_0592.JPEG" alt="A normal snowy street in Lauttasaari, Helsinki." />
+</picture>
+</a>
 </div>
 </a>
