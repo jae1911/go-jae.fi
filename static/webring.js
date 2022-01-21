@@ -26,7 +26,7 @@ template.innerHTML = `
 }
 
 .webring a {
-    color: #f5a500;
+    color: #F4511E;
 }
 
 </style>
