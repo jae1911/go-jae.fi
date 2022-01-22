@@ -50,6 +50,16 @@ func main() {
         })
     })
 
+    // Signatures
+    r.GET("/signatures/malware", func(c *gin.Context) {
+        signatures, err := ioutil.ReadFile("static/signatures.txt")
+        if err != nil {
+            log.Fatal(err)
+        }
+
+        c.String(http.StatusOK, string(signatures))
+    })
+
     // IP range location feed
     r.GET("/ip/ranges", func(c *gin.Context) {
         message := "2001:67c:2724::/48,FI,,,\n2a0e:8f02:f01f::/48,DE,,,\n2a12:4946:9900::/40,BE,,,"
