@@ -198,5 +198,6 @@ code {
         margin-left: 2vw;
         margin-right: 2vw;
         max-width: unset;
+        padding-bottom: 15vh;
     }
 }
