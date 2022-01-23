@@ -169,7 +169,7 @@ blockquote p::before {
         width: unset;
         height: unset;
         margin-left: 2vw;
-        border-right:  1px solid #37474F;
+        border-right:  unset;
     }
 
     .nav ul {
