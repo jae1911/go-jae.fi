@@ -141,3 +141,62 @@ code {
     margin-right: 20vw;
     max-width: 90vw;
 }
+
+@media screen and (max-width: 1000px) {
+    /* Main title banner */
+    .banner {
+        margin-left: 20vw;
+    }
+
+    .banner h1 {
+        font-size: 3rem;
+    }
+
+    .banner .sub {
+        border-left: unset;
+        padding-left: 1vw;
+        font-size: 2rem;
+    }
+
+    /* Navigation */
+    .nav {
+        position: relative;
+        float: unset;
+        width: unset;
+        height: unset;
+        margin-left: 2vw;
+        border-right:  1px solid #37474F;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        direction: rtl;
+    }
+
+    .nav li {
+        font-size: 1.3em;
+        height: 100%;
+        display: flex;
+    }
+
+    .nav hr {
+        float: right;
+        width: 5vw;
+    }
+
+    .nav li::before {
+        content: "";
+    }
+
+    .nav footer {
+        display: none;
+    }
+
+    /* Content */
+    .content {
+        position: relative;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        max-width: unset;
+    }
+}
