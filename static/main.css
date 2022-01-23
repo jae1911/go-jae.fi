@@ -146,6 +146,10 @@ blockquote p::before {
     max-width: 90vw;
 }
 
+.undernav {
+    display: none;
+}
+
 @media screen and (max-width: 1000px) {
     /* Main title banner */
     .banner {
@@ -203,5 +207,12 @@ blockquote p::before {
         margin-right: 2vw;
         max-width: unset;
         padding-bottom: 15vh;
+    }
+
+    .undernav {
+        float: right;
+        text-align: right;
+        padding-right: 2vw;
+        display: unset;
     }
 }
