@@ -39,11 +39,11 @@ We're gonna use it in our browser (the desktop version work the same way, it is 
 
 You will be greeted by this page, now click on 'Sign In'.
 
-![Homepage of Element](https://bm.jae.fi/web/jae.fi/matrix/elementhomepage.png)
+[![Homepage of Element](https://bm.jae.fi/web/jae.fi/matrix/elementhomepage.png)](https://bm.jae.fi/web/jae.fi/matrix/elementhomepage.png)
 
 Now on this page, click the 'edit' button, select 'other homeserver' and enter the address kde.org and then validate with 'continue'. Also, don't forget to click on the 'create account' button on the bottom of the dialog.
 
-![Edition of the homeserver](https://bm.jae.fi/web/jae.fi/matrix/matrixedit.png)
+[![Edition of the homeserver](https://bm.jae.fi/web/jae.fi/matrix/matrixedit.png)](https://bm.jae.fi/web/jae.fi/matrix/matrixedit.png)
 
 Now all you have to do is to enter an username, a password, an email address (some server might not ask for it) and click on 'Sign in'.  
 You will now see the main Element interface from which you can create and join rooms.  
