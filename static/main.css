@@ -63,6 +63,10 @@ code {
     background-color: #3E3E3E;
 }
 
+blockquote p::before {
+    content: "> ";
+}
+
 /* SVG Icons */
 .svg-icon {
   width: 1em;
