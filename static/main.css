@@ -59,6 +59,10 @@ pre {
     padding-left: 0.5vw;
 }
 
+code {
+    background-color: #3E3E3E;
+}
+
 /* SVG Icons */
 .svg-icon {
   width: 1em;
