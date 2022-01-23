@@ -1,5 +1,8 @@
 ## About me
 
+> Note: the mobile support for this website is still experimental.
+> If you have any improvements to bring to it, please [open a PR](https://github.com/Jaedotmoe/go-jae.fi) on the repository.
+
 I'm Jae, a developer, sysadmin and a Synth.  
 I am also a developer and administrator at [TeDomum](https://tedomum.net).  
 Since March 2021, I am located in Helsinki, Finland (EEST).
