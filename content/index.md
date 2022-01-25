@@ -16,6 +16,12 @@ My current hardware is [listed on its own page](/stuff).
 
 I also happen to run [AS211696](/as) which announces two IPv6 prefixes (one PA and one PI).
 
+<picture>
+    <!-- <source type="image/avif" srcset="/assets/img/banners/matrix-help.avif" /> -->
+    <source type="image/gif" srcset="/assets/img/banners/matrix-help.gif" />
+    <img alt="Need Matrix help? Join #home:jae.fi !" data-src="/assets/img/banners/matrix-help.gif" />
+</picture>
+
 ### Current projects
 
  - [go-jae.fi](https://github.com/Jaedotmoe/go-jae.fi) - The website you are currently on, made in `Golang`, `HTML`, `CSS` & `JavaScript`
