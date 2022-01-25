@@ -3,7 +3,7 @@
 > Note: the mobile support for this website is still experimental.
 > If you have any improvements to bring to it, please [open a PR](https://github.com/Jaedotmoe/go-jae.fi) on the repository.
 
-I'm Jae, a developer, sysadmin and a Synth.  
+I'm Jae, a developer & sysadmin.  
 I am also a developer and administrator at [TeDomum](https://tedomum.net).  
 Since March 2021, I am located in Helsinki, Finland (EEST).
 
@@ -29,6 +29,8 @@ I also happen to run [AS211696](/as) which announces two IPv6 prefixes (one PA a
  - [gh-bot](https://github.com/Jaedotmoe/gh-bot) - A webhook bot for Matrix that support Github, Gitlab and Gitea made in `Python`
 
 ### Latest blog articles
+
+Everything said on this blog is **my** doing and **my** own opinions, not of any of my current, future or past employers.
 
 <noscript>
     Please activate JavaScript to see the blog widget or <a href="https://blog.jae.fi">head to the blog</a>.
