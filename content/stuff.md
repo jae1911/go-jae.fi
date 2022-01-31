@@ -13,6 +13,7 @@ Desktop computer:
  - Webcam: Logitech StreamCam
  - OS: ArchLinux x86_64
  - Mouse: Razer Basilisk X Hyperspeed
+ - VR Headset: ValVe Index (awaiting delivery)
 
 ### Audio
 
