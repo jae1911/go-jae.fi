@@ -29,6 +29,7 @@ Lines with a <svg class="svg-icon" viewBox="0 0 20 20"><path fill="none" d="M13.
  - [Al-Risah - Jammer](https://youtu.be/OPizgLXuHG8)
  - [Spacetracker Invasion - Ghidorah](https://youtu.be/SELHXDtg0aY)
  - [Electric City - JazzCat](https://youtu.be/Nr2SD-mFRps)
+ - [Firing Up - Maniacs of Noise](https://youtu.be/KJEV6PhQEmk)
 
 
 Here my favourites albums. All links lead to Bandcamp.
