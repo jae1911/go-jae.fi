@@ -12,7 +12,7 @@ import (
 
     "github.com/gin-contrib/gzip"
     "github.com/gin-gonic/gin"
-    "github.com/russross/blackfriday"
+    "github.com/russross/blackfriday/v2"
 )
 
 // For content pages
@@ -103,7 +103,7 @@ func main() {
             log.Fatal(err)
         }
 
-        postHTML := template.HTML(blackfriday.MarkdownCommon([]byte(postContent)))
+        postHTML := template.HTML(blackfriday.Run([]byte(postContent), blackfriday.WithExtensions(blackfriday.Tables|blackfriday.Autolink|blackfriday.HardLineBreak|blackfriday.Strikethrough)))
 
         post := Post{Title: "Main Page", Content: postHTML}
 
@@ -138,7 +138,7 @@ func main() {
 
             c.Redirect(http.StatusMovedPermanently, raw_uri)
         } else {
-            postHTML := template.HTML(blackfriday.MarkdownCommon([]byte(postContent)))
+            postHTML := template.HTML(blackfriday.Run([]byte(postContent), blackfriday.WithExtensions(blackfriday.Tables|blackfriday.Autolink|blackfriday.HardLineBreak|blackfriday.Strikethrough)))
 
             post := Post{Title: requestedPage, Content: postHTML}
 
