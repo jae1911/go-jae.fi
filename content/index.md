@@ -16,11 +16,7 @@ My current hardware is [listed on its own page](/stuff).
 
 I also happen to run [AS211696](/as) which announces three IPv6 prefixes (one PA and one PI).
 
-<picture>
-    <!-- <source type="image/avif" srcset="/assets/img/banners/matrix-help.avif" /> -->
-    <source type="image/gif" srcset="/assets/img/banners/matrix-help.gif" />
-    <img alt="Need Matrix help? Join #home:jae.fi !" data-src="/assets/img/banners/matrix-help.gif" />
-</picture>
+<picture><!-- <source type="image/avif" srcset="/assets/img/banners/matrix-help.avif" /> --><source type="image/gif" srcset="/assets/img/banners/matrix-help.gif" /><img alt="Need Matrix help? Join #home:jae.fi !" data-src="/assets/img/banners/matrix-help.gif" /></picture>
 
 ### Current projects
 
@@ -31,13 +27,7 @@ I also happen to run [AS211696](/as) which announces three IPv6 prefixes (one PA
 ### Latest blog articles
 
 Everything said on this blog is **my** doing and **my** own opinions, not of any of my current, future or past employers.
-
-<noscript>
-    Please activate JavaScript to see the blog widget or <a href="https://blog.jae.fi">head to the blog</a>.
-</noscript>
-<blog-widget url="https://blog.jae.fi/ghost/api/v3/content/posts/?key=9f1b72ce9feb4b52201cac0dc6&include=tags,authors&limit=5">
-</blog-widget>
-<script type="text/javascript" src="/assets/blog.js"></script>
+<noscript>Please activate JavaScript to see the blog widget or <a href="https://blog.jae.fi">head to the blog</a>.</noscript><blog-widget url="https://blog.jae.fi/ghost/api/v3/content/posts/?key=9f1b72ce9feb4b52201cac0dc6&include=tags,authors&limit=5"></blog-widget><script type="text/javascript" src="/assets/blog.js"></script>
 
 ### Some Links
 
@@ -46,10 +36,4 @@ Everything said on this blog is **my** doing and **my** own opinions, not of any
  - [Matrix Room](matrix:r/home:jae.fi); ([Matrix.to URL](/matrixroom) for client that don't support the Matrix scheme URI)  to chat with me.
  - [Github](https://github.com/jaedotmoe); all my project sources
 
-<noscript>
-    You need JavaScript to see the webring widget.
-</noscript>
-<webring-css site="https://jae.fi">
-    If you see this, there is either a problem or the Webring hasn't loaded yet.
-</webring-css>
-<script type="text/javascript" src="/assets/webring.js"></script>
+<noscript>You need JavaScript to see the webring widget.</noscript><webring-css site="https://jae.fi">If you see this, there is either a problem or the Webring hasn't loaded yet.</webring-css><script type="text/javascript" src="/assets/webring.js"></script>
