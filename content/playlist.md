@@ -31,6 +31,8 @@ Lines with a <svg class="svg-icon" viewBox="0 0 20 20"><path fill="none" d="M13.
  - [Electric City - JazzCat](https://youtu.be/Nr2SD-mFRps)
  - [Firing Up - Maniacs of Noise](https://youtu.be/KJEV6PhQEmk)
  - [Elimination - Lizardking](https://youtu.be/J612hD4tcqI)
+ - [Bionic Savage - Blue Fox](https://youtu.be/NRrLa3LOaow)
+ - [I'm Gonna Be Infectious - Romeo Knight](https://youtu.be/Xz0h4S3Jn-I)
 
 
 Here my favourites albums. All links lead to Bandcamp.
