@@ -146,6 +146,7 @@ func main() {
                 "title": post.Title,
                 "content": post.Content,
                 "stream_online": stream_online,
+                "path": "/" + requestedPage,
             })
         }    
 
