@@ -10,9 +10,9 @@ import (
     "strings"
     "regexp"
 
-    "github.com/gin-contrib/gzip"
     "github.com/gin-gonic/gin"
     "github.com/russross/blackfriday"
+    "github.com/missdeer/gin-minify"
 )
 
 // For content pages
@@ -30,7 +30,7 @@ func main() {
     stream_online := false
 
     // Compression
-    r.Use(gzip.Gzip(gzip.DefaultCompression))
+    r.Use(minify.Minify(minify.IgnoreHTML()))
 
     r.Delims("{{", "}}")
 

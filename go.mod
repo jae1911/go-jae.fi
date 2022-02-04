@@ -29,10 +29,13 @@ require (
 	github.com/martini-contrib/render v0.0.0-20150707142108-ec18f8345a11 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/memcachier/mc v2.0.1+incompatible // indirect
+	github.com/missdeer/gin-minify v0.0.0-20201010031445-00807b7cac8e // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
 	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
 	github.com/robfig/go-cache v0.0.0-20130306151617-9fc39e0dbf62 // indirect
+	github.com/tdewolff/minify/v2 v2.7.6 // indirect
+	github.com/tdewolff/parse/v2 v2.4.3 // indirect
 	github.com/ugorji/go/codec v1.1.7 // indirect
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
 	golang.org/x/sys v0.0.0-20200116001909-b77594299b42 // indirect
