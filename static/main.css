@@ -5,19 +5,13 @@
     --link-color: #F4511E;
 }
 
-/* Font import */
-@font-face {
-    font-family: 'sourcesans';
-    src: url('/assets/fonts/SourceSansPro-Regular.ttf');
-}
-
 /* Main properties */
 body {
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: 'sourcesans';
+    font-family: Consolas, Arial, sans-serif;;
 
     background-attachment: fixed;
     background-size: cover;
