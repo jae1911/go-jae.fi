@@ -36,6 +36,7 @@ Lines with a <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler ico
  - [Space Debris - Captain](https://youtu.be/QancbuzfAs8)
  - [Space Debris - Spacesynth (Remix)](https://youtu.be/1sw7iT7C_wI)
  - [Light - DMTAngel](https://youtu.be/w5gThGAxrqM)
+ - <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="16" height="16" viewBox="0 0 24 24" stroke-width="3" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="16" height="16" viewBox="0 0 24 24" stroke-width="3" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart" width="16" height="16" viewBox="0 0 24 24" stroke-width="3" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg> [Vault Field - Mike Morasky (Half-Life: Alyx OST)](https://youtu.be/zLeu5Y1vY5k?list=PLvFZv9Cd7BQGVB-RQtQO7qOU0kgXXFR68)
 
 
 Here my favourites albums. All links lead to Bandcamp.
