@@ -19,7 +19,7 @@ I also happen to run [AS211696](/as) which announces three IPv6 prefixes (one PA
 <picture>
     <!-- <source type="image/avif" srcset="/assets/img/banners/matrix-help.avif" /> -->
     <source type="image/gif" srcset="/assets/img/banners/matrix-help.gif" />
-    <img alt="Need Matrix help? Join #home:jae.fi !" data-src="/assets/img/banners/matrix-help.gif" />
+    <img alt="Need Matrix help? Join #home:jae.fi !" src="/assets/img/banners/matrix-help.gif" />
 </picture>
 
 ### Current projects
