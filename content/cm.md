@@ -1,0 +1,1 @@
+redir:https://www.marxists.org/archive/marx/works/1848/communist-manifesto/index.htm
