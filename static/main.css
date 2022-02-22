@@ -5,13 +5,25 @@
     --link-color: #F4511E;
 }
 
+@font-face {
+    font-family: OpenSans;
+    src: local("Open Sans"), url("/assets/OpenSans.ttf");
+    font-display: auto;
+}
+
+@font-face {
+    font-family: Inconsolata;
+    src: local("Inconsolata"), url("/assets/Inconsolata.otf");
+    font-display: auto;
+}
+
 /* Main properties */
 body {
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: Consolas, Arial, sans-serif;;
+    font-family: Open Sans, Arial, sans-serif;
 
     background-attachment: fixed;
     background-size: cover;
@@ -51,10 +63,12 @@ pre {
     max-width: fit-content;
     padding-right: 0.5vw;
     padding-left: 0.5vw;
+    font-family: Inconsolata, Consolas, sans-serif;
 }
 
 code {
     background-color: #3E3E3E;
+    font-family: Inconsolata, Consolas, sans-serif;
 }
 
 blockquote p::before {
