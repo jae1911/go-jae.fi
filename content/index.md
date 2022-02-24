@@ -14,7 +14,7 @@ Don't make the mistake I did in the past and use IRC.
 Also, if you wish to donate, please read the [about donations page](/donation).  
 My current hardware is [listed on its own page](/stuff).
 
-I also happen to run [AS211696](/as) which announces three IPv6 prefixes (one PA and one PI).
+I also happen to run [AS211696](/as) which announces three IPv6 prefixes (one PA and one PI) and one IPv4.
 
 ### Current projects
 
