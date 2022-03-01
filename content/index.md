@@ -18,9 +18,9 @@ I also happen to run [AS211696](/as) which announces three IPv6 prefixes (one PA
 
 ### Current projects
 
- - [go-jae.fi](https://github.com/Jaedotmoe/go-jae.fi) - The website you are currently on, made in `Golang`, `HTML`, `CSS` & `JavaScript`
- - [wolfeye-api](https://github.com/Jaedotmoe/wolfeye-api) - A search engine API made in `Python` with Flask
- - [gh-bot](https://github.com/Jaedotmoe/gh-bot) - A webhook bot for Matrix that support Github, Gitlab and Gitea made in `Python`
+ - [go-jae.fi](https://github.com/jae1911/go-jae.fi) - The website you are currently on, made in `Golang`, `HTML`, `CSS` & `JavaScript`
+ - [wolfeye-api](https://github.com/jae1911/wolfeye-api) - A search engine API made in `Python` with Flask
+ - [gh-bot](https://github.com/jae1911/gh-bot) - A webhook bot for Matrix that support Github, Gitlab and Gitea made in `Python`
 
 ### Latest blog articles
 
@@ -38,7 +38,7 @@ Everything said on this blog is **my** doing and **my** own opinions, not of any
  - [My blog](https://blog.jae.fi); on which I tell you about projects and stuff I like or dislike.
  - [Mastodon](https://mastodon.tedomum.net/@jae); a Twitter-like social network on which you can follow me.
  - [Matrix Room](matrix:r/home:jae.fi); ([Matrix.to URL](/matrixroom) for client that don't support the Matrix scheme URI)  to chat with me.
- - [Github](https://github.com/jaedotmoe); all my project sources
+ - [Github](https://github.com/jae1911); all my project sources
 
 <noscript>
     You need JavaScript to see the webring widget.
