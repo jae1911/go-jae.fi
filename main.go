@@ -92,6 +92,11 @@ func main() {
         })
     })
 
+    // Matrix client configuration
+    r.GET("/.well-known/matrix/client", func(c *gin.Context) {
+        c.String(http.StatusOK, "{\"m.homeserver\":{\"base_url\":\"https://matrix.jae.fi/\"},\"m.identity_server\":{\"base_url\":\"https://matrix.jae.fi\"}}")
+    })
+
     // Static routes & templates
     r.LoadHTMLGlob("templates/**/*.tmpl")
     r.Static("/assets", "./static")
